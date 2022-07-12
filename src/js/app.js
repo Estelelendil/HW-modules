@@ -1,4 +1,4 @@
-import { GameImport, GameSavingDataImp, loadGame, saveGame} from './game.js';
+import GameImport, { GameSavingData as GameSavingDataImp, readGameSaving as loadGame, writeGameSaving as saveGame} from './game.js';
 
 console.log('app worked');
 
